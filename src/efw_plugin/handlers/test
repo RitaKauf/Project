@@ -1,0 +1,523 @@
+\\\\\\\\\\\\\\\\ color line:\\\\\\\\\\\\
+
+			colorPreferenceKey="clcolor2"
+            colorPreferenceValue="255, 213, 213"
+            highlightPreferenceKey="clhighlight"
+            highlightPreferenceValue="true"
+            
+            colorPreferenceKey="clcolor1"
+            colorPreferenceValue="191, 223, 255"
+            
+            colorPreferenceKey="clcolor2"
+            colorPreferenceValue="255, 213, 213"
+            
+            colorPreferenceKey="clcolor3"
+            colorPreferenceValue="255, 166, 166"
+            
+            colorPreferenceKey="clcolor4"
+            colorPreferenceValue="255, 94, 94"
+            
+            colorPreferenceKey="clcolor5"
+            colorPreferenceValue="255, 32, 32"
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<extension
+         id="EFDMarker_1.Marker"
+         name="EFD Marker 1"
+         point="org.eclipse.core.resources.markers">
+      <persistent
+            value="true">
+      </persistent>
+      <super
+            type="org.eclipse.core.resources.textmarker">
+      </super>
+      <super
+            type="org.eclipse.core.resources.marker">
+      </super>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="EFDMarker_1.Marker.MyAnnotation"
+            colorPreferenceKey="clcolor1"
+            colorPreferenceValue="191, 223, 255"
+            highlightPreferenceKey="clhighlight"
+            highlightPreferenceValue="true"
+            icon="icons/sample.gif"
+            includeOnPreferencePage="true"
+            label="MyAnnotation1"
+            overviewRulerPreferenceKey="clruler"
+            overviewRulerPreferenceValue="false"
+            textPreferenceKey="cltext"
+            textPreferenceValue="true"
+            textStylePreferenceKey="clstyle"
+            textStylePreferenceValue="DASHED_BOX"
+            verticalRulerPreferenceKey="clvertical"
+            verticalRulerPreferenceValue="false">
+      </specification>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="0"
+            markerType="EFDMarker_1.Marker"
+            name="EFDMarker_1.Marker.MyAnnotation"
+            super="org.eclipse.ui.workbench.texteditor.info">
+      </type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+            class="Markers.DegreeMarker"
+            markerType="EFDMarker_1.Marker">
+      </markerResolutionGenerator>
+   </extension>
+   
+   <extension
+         id="EFDMarker_2.Marker"
+         name="EFD Marker 2"
+         point="org.eclipse.core.resources.markers">
+      <persistent
+            value="true">
+      </persistent>
+      <super
+            type="org.eclipse.core.resources.textmarker">
+      </super>
+      <super
+            type="org.eclipse.core.resources.marker">
+      </super>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="EFDMarker_2.Marker.MyAnnotation"
+            colorPreferenceKey="clcolor2"
+            colorPreferenceValue="255, 213, 213"
+            highlightPreferenceKey="clhighlight"
+            highlightPreferenceValue="true"
+            icon="icons/sample.gif"
+            includeOnPreferencePage="true"
+            label="MyAnnotation2"
+            overviewRulerPreferenceKey="clruler"
+            overviewRulerPreferenceValue="true"
+            textPreferenceKey="cltext"
+            textPreferenceValue="false"
+            textStylePreferenceKey="clstyle"
+            textStylePreferenceValue="DASHED_BOX"
+            verticalRulerPreferenceKey="clvertical"
+            verticalRulerPreferenceValue="false">
+      </specification>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="0"
+            markerType="EFDMarker_2.Marker"
+            name="EFDMarker_2.Marker.MyAnnotation"
+            super="org.eclipse.ui.workbench.texteditor.info">
+      </type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+            class="Markers.DegreeMarker"
+            markerType="EFDMarker_2.Marker">
+      </markerResolutionGenerator>
+   </extension>
+   
+   <extension
+         id="EFDMarker_3.Marker"
+         name="EFD Marker 3"
+         point="org.eclipse.core.resources.markers">
+      <persistent
+            value="true">
+      </persistent>
+      <super
+            type="org.eclipse.core.resources.textmarker">
+      </super>
+      <super
+            type="org.eclipse.core.resources.marker">
+      </super>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="EFDMarker_3.Marker.MyAnnotation"
+            colorPreferenceKey="clcolor3"
+            colorPreferenceValue="255, 166, 166"
+            highlightPreferenceKey="clhighlight"
+            highlightPreferenceValue="true"
+            icon="icons/sample.gif"
+            includeOnPreferencePage="true"
+            label="MyAnnotation3"
+            overviewRulerPreferenceKey="clruler"
+            overviewRulerPreferenceValue="false"
+            textPreferenceKey="cltext"
+            textPreferenceValue="true"
+            textStylePreferenceKey="clstyle"
+            textStylePreferenceValue="DASHED_BOX"
+            verticalRulerPreferenceKey="clvertical"
+            verticalRulerPreferenceValue="false">
+      </specification>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="0"
+            markerType="EFDMarker_3.Marker"
+            name="EFDMarker_3.Marker.MyAnnotation"
+            super="org.eclipse.ui.workbench.texteditor.info">
+      </type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+            class="Markers.DegreeMarker"
+            markerType="EFDMarker_3.Marker">
+      </markerResolutionGenerator>
+   </extension>
+   
+   <extension
+         id="EFDMarker_4.Marker"
+         name="EFD Marker 4"
+         point="org.eclipse.core.resources.markers">
+      <persistent
+            value="true">
+      </persistent>
+      <super
+            type="org.eclipse.core.resources.textmarker">
+      </super>
+      <super
+            type="org.eclipse.core.resources.marker">
+      </super>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="EFDMarker_4.Marker.MyAnnotation"
+            colorPreferenceKey="clcolor4"
+            colorPreferenceValue="255, 94, 94"
+            highlightPreferenceKey="clhighlight"
+            highlightPreferenceValue="true"
+            icon="icons/sample.gif"
+            includeOnPreferencePage="true"
+            label="MyAnnotation4"
+            overviewRulerPreferenceKey="clruler"
+            overviewRulerPreferenceValue="false"
+            textPreferenceKey="cltext"
+            textPreferenceValue="true"
+            textStylePreferenceKey="clstyle"
+            textStylePreferenceValue="DASHED_BOX"
+            verticalRulerPreferenceKey="clvertical"
+            verticalRulerPreferenceValue="false">
+      </specification>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="0"
+            markerType="EFDMarker_4.Marker"
+            name="EFDMarker_4.Marker.MyAnnotation"
+            super="org.eclipse.ui.workbench.texteditor.info">
+      </type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+            class="Markers.DegreeMarker"
+            markerType="EFDMarker_4.Marker">
+      </markerResolutionGenerator>
+   </extension>
+   
+   
+ <extension
+         id="EFDMarker_5.Marker"
+         name="EFD Marker 5"
+         point="org.eclipse.core.resources.markers">
+      <persistent
+            value="true">
+      </persistent>
+      <super
+            type="org.eclipse.core.resources.textmarker">
+      </super>
+      <super
+            type="org.eclipse.core.resources.marker">
+      </super>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="EFDMarker_5.Marker.MyAnnotation"
+            colorPreferenceKey="clcolor5"
+            colorPreferenceValue="255, 32, 32"
+            highlightPreferenceKey="clhighlight"
+            highlightPreferenceValue="true"
+            icon="icons/sample.gif"
+            includeOnPreferencePage="true"
+            label="MyAnnotation5"
+            overviewRulerPreferenceKey="clruler"
+            overviewRulerPreferenceValue="false"
+            textPreferenceKey="cltext"
+            textPreferenceValue="true"
+            textStylePreferenceKey="clstyle"
+            textStylePreferenceValue="DASHED_BOX"
+            verticalRulerPreferenceKey="clvertical"
+            verticalRulerPreferenceValue="false">
+      </specification>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="0"
+            markerType="EFDMarker_5.Marker"
+            name="EFDMarker_5.Marker.MyAnnotation"
+            super="org.eclipse.ui.workbench.texteditor.info">
+      </type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+            class="Markers.DegreeMarker"
+            markerType="EFDMarker_5.Marker">
+      </markerResolutionGenerator>
+   </extension> 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<extension id="EFDMarker" name="EFD Marker" point="org.eclipse.core.resources.markers">
+  <super type="org.eclipse.core.resources.problemmarker" /> 
+  <super type="org.eclipse.core.resources.textmarker" /> 
+  <persistent value="true" /> 
+  </extension>
+
+  
+  <extension point="org.eclipse.ui.editors.annotationTypes">
+  <type name="diffAnnotationB" super="org.eclipse.ui.workbench.texteditor.info" markerType="org.eclipse.jdt.core.problem">markerSeverity="2"</type> 
+  </extension>
+  <extension point="org.eclipse.ui.editors.markerAnnotationSpecification">
+  <specification icon="icons/jImage.gif" annotationType="diffAnnotationB" verticalRulerPreferenceKey="highlight.rulers.vertical" textPreferenceKey="highlight.text" colorPreferenceKey="highlight.color" highlightPreferenceKey="highlight.background" textPreferenceValue="true" textStylePreferenceValue="DASHED_BOX" overviewRulerPreferenceKey="highlight.rulers.overview" presentationLayer="4" highlightPreferenceValue="true" label="DiffSiteB" symbolicIcon="warning" colorPreferenceValue="50,55,155" verticalRulerPreferenceValue="true" overviewRulerPreferenceValue="true" textStylePreferenceKey="highlight.text.style" /> 
+  </extension>
+  
+  
+  ////////////////////////////////////
+<extension
+         id="EFDMarker.Marker"
+         name="EFD Marker"
+         point="org.eclipse.core.resources.markers">
+      <persistent
+            value="false">
+      </persistent>
+      <super
+            type="org.eclipse.core.resources.textmarker">
+      </super>
+      <super
+            type="org.eclipse.core.resources.marker">
+      </super>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="EFDMarker.MyAnnotation"
+            colorPreferenceKey="clcolor"
+            colorPreferenceValue="255,200,255"
+            highlightPreferenceKey="clhighlight"
+            highlightPreferenceValue="true"
+            icon="icons/sample.gif"
+            includeOnPreferencePage="true"
+            label="MyAnnotation"
+            overviewRulerPreferenceKey="clruler"
+            overviewRulerPreferenceValue="true"
+            textPreferenceKey="cltext"
+            textPreferenceValue="true"
+            textStylePreferenceKey="clstyle"
+            textStylePreferenceValue="DASHED_BOX"
+            verticalRulerPreferenceKey="clvertical"
+            verticalRulerPreferenceValue="true">
+      </specification>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.annotationTypes">
+      <type
+            markerSeverity="0"
+            markerType="EFDMarker.Marker"
+            name="EFDMarker.MyAnnotation"
+            super="org.eclipse.ui.workbench.texteditor.info">
+      </type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.markerResolution">
+      <markerResolutionGenerator
+            class="EFW_plugin.DegreeMarker"
+            markerType="EFDMarker.Marker">
+      </markerResolutionGenerator>
+   </extension>
+
+
+
+
+
+
+
+
+
+
+    return null;
+  }
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      		// Get the Active Selection
+		IStructuredSelection selection = (IStructuredSelection) HandlerUtil
+				.getActiveMenuSelection(event);
+
+		// Get First element in selection tree
+		Object element = selection.getFirstElement();
+
+		// Check if element is a compilation unit
+		if (element instanceof ICompilationUnit) {
+
+			ICompilationUnit compilationUnit = (ICompilationUnit) element;
+			// analyze the code
+			efdAnalyze(compilationUnit);
+		}
+		// check if this is a package fragment
+		if (element instanceof IPackageFragment) {
+			IPackageFragment pFragment = (IPackageFragment) element;
+
+			try {
+				// get compilation units list
+				ICompilationUnit[] units = pFragment.getCompilationUnits();
+				// rotate over compilation units and run the analysis
+				for (int i = 0; i < units.length; i++) {
+					// get name
+					String name = units[i].getElementName();
+					// if compilation unit is a java file then analyze it
+					if (name.endsWith(".java")) {
+						// analyze the unit
+						efdAnalyze(units[i]);
+					}
+				}
+			} catch (JavaModelException e) {
+				// Error while getting compilation units list
+				e.printStackTrace();
+			}
+		}
+		// check for package fragment root
+		if (element instanceof IPackageFragmentRoot) {
+			IPackageFragmentRoot fragmentRoot = (IPackageFragmentRoot) element;
+
+			try {
+				// get folder children
+				IJavaElement[] elements = fragmentRoot.getChildren();
+				// array for storing packages names
+				String[] packageNames = new String[elements.length];
+				// rotate over all elements and add there names to the string
+				for (int i = 0; i < elements.length; i++) {
+					packageNames[i] = elements[i].getElementName();
+				}
+				// rotate over all package names
+				for (int i = 0; i < packageNames.length; i++) {
+					// get package
+					IPackageFragment pack = fragmentRoot.getPackageFragment(packageNames[i]);
+					ICompilationUnit[] units = pack.getCompilationUnits();
+					// rotate over all compilation units
+					for (int j = 0; j < units.length; j++) {
+						// check if this is a java file
+						String name = units[j].getElementName();
+						if (name.endsWith(".java")) {
+							// analyze the unit
+							efdAnalyze(units[j]);
+						}
+					}
+				}
+
+			} catch (JavaModelException e) {
+				// Could not get children list of package fragment
+				e.printStackTrace();
+			}
+		}
+		// check if element is a java project
+		if (element instanceof IJavaProject) {
+			IJavaProject javaProject = (IJavaProject) element;
+
+			try {
+				// get package fragments list
+				IPackageFragment[] fragments = javaProject.getPackageFragments();
+				// rotate over all fragments
+				for (int i = 0; i < fragments.length; i++) {
+					ICompilationUnit[] units = fragments[i].getCompilationUnits();
+					// rotate over all compilation units
+					for (int j = 0; j < units.length; j++) {
+						// check if this is a java file
+						String name = units[j].getElementName();
+						if (name.endsWith(".java")) {
+							// analyze the unit
+							efdAnalyze(units[j]);
+						}
+					}
+				}
+			} catch (JavaModelException e) {
+				// Throw java model exception - could not get package fragments
+				// list
+				e.printStackTrace();
+			}
+		}
+		
+		
+		//////////////////////////////////
+		
+		
+		IEditorReference[] EditorReference = PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage().getEditorReferences();
+			
+			for (IEditorReference iterEditor : EditorReference)
+			{
+				if (JavaCore.isJavaLikeFileName(iterEditor.getTitle()))
+				{
+					System.out.printf("Found file in editor: %s\n", iterEditor.getName());
+					IEditorInput EditorInput = iterEditor.getEditorInput();
+					IFileEditorInput FileEditorInput = (IFileEditorInput)EditorInput.getAdapter(IFileEditorInput.class);
+					
+//					IPathEditorInput PathEditorInput = (IPathEditorInput)FileEditorInput.getAdapter(IPathEditorInput.class);
+//					String sFilePath = PathEditorInput.getPath().toString();
+//					System.out.printf("%s\n", sFilePath);
+
+					ASTParser parser = ASTParser.newParser(AST.JLS3);
+					
+					IJavaScriptElement JavaScriptElement = JavaScriptCore.create(FileEditorInput.getFile());
+					ITypeRoot TypeRoot = (ITypeRoot)JavaScriptElement.getAdapter(ITypeRoot.class);
+
+					parser.setSource(TypeRoot);
+					parser.setResolveBindings(true);
+					JavaScriptUnit result = (JavaScriptUnit)parser.createAST(null);
+
+					// go over all available visitors analysis and execute it
+					Iterator<AstVisitor> iterVisitors = m_oVisitorList.iterator();
+					while (iterVisitors.hasNext())
+					{
+						// TODO: Cfir -> Check why when using a direct reference from the iterator there is an exception
+						AstVisitor tempVisitor = iterVisitors.next();
+						if (tempVisitor.isActive() == true)
+						{
+							result.accept(tempVisitor);
+						}
+					}
